@@ -1,14 +1,64 @@
-/*  if Bootstrap sticky header  */
-body {
-  padding-top: 70px; }
 
-/* if Bootstrap sticky footer */
 body {
-  padding-bottom: 70px; }
+	background-color: #333131;
+}
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    padding: 0;
+    width: 100%;
+    height: 700px; 
+}
 
-.test-class {
-  width: 50px;
-  height: 50px;
-  border: solid green 1px; }
+.header-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url("../img/660-bar.jpg") no-repeat center;
+  	background-size: 100% auto;
+  	height: 100%;
+  	width: 100%;
+}
+
+.info {
+	width: 50%;
+	text-align: center;
+	padding: 50px;
+	padding-top: 60px;
+	background-color: rgba(0,0,0, .5);
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+	color: #faebd7;
+	font-size: 30px;
+	letter-spacing: 3px;
+	line-height: 35px;
+}
+.name {
+	display: inline-block;
+	margin-bottom: 20px;
+	font-weight: 500;
+	font-size: 75px;
+	line-height: 50px;
+}
+
+.social {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 50%;
+	height: 100px;
+}
+.social img {
+	width: 50%;
+	height: auto;
+}
+
 
 /*# sourceMappingURL=style.css.map */

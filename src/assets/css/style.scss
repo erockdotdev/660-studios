@@ -7,14 +7,15 @@ $test-color: red;
 	border: solid $color 1px;
 }
 /*  if sticky header  */
-body { padding-top: 70px; }
+// body { padding-top: 70px; }
 /* if sticky footer */
-body { padding-bottom: 70px; }
+// body { padding-bottom: 70px; }
 
-.test-class {
-	@include test-mix (50px, 50px, green);
-} 
+.main {
+	background: url("../img/660-header.jpg") no-repeat center;
+	height: 400px;
+}
 
-.wrapper {
+.info {
 
 }
