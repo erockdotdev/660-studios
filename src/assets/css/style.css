@@ -82,11 +82,13 @@ body {
 }
 
 .more-info {
+	font-family: 'Roboto', sans-serif;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	font-size: 20px;
 	color: white;
+	margin-top: 15px;
 	text-decoration: underline;
 	cursor: pointer;
 }
@@ -112,5 +114,13 @@ body {
 
 .modal-body {
 	color: black;
+
+}
+.modal-dialog {
+	width: 400px;
+}
+.modal-content {
+	height: 400px;
+	border-radius: 0;
 }
 /*# sourceMappingURL=style.css.map */
