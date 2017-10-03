@@ -22,7 +22,7 @@
 	<!-- Local stylesheet -->
 	<link rel="stylesheet" type="text/css" href="src/assets/css/style.css">
 	<!-- ROBOTO FONT  -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
 </head>
 <body>
@@ -32,27 +32,61 @@
 				<div class="col-md-8 info">
 					<div>
 						<span class="contact">
-						<span class="name">660 Studios</span> </strong><br>
+						<!-- <span class="name">660 Studios</span> </strong><br> -->
+						<div class="logo"><img src="src/assets/img/logo/660-logo.jpg" alt=""></div>
 							660 Grand Street <br>
-							Jersey City, NJ, 07306<br>
-						 	e-mail: info@660studios.com</span>
+							Jersey City, NJ 07304<br></span>
+						 	<span class="contact email">e-mail: jfathomj@yahoo.com</span>
 					 </div>
 				
 				
 					<div class="social">
+					  
+						<span 
+							class="more-info"
+							data-toggle="modal" 
+							data-target="#myModal"> About 660 Studios</span>
+						<div class="links-right">
 						<a href="https://www.facebook.com/660studios/" target="_blank" >
-							<div><img src="./src/assets/img/social-icons/facebook.png" alt=""></div>
+							<div class="social-link facebook"><img src="./src/assets/img/social-icons/facebook.png" alt=""></div>
 						</a>
 
 						<a href="https://www.instagram.com/660studios/" target="_blank">
-							<div><img src="./src/assets/img/social-icons/instagram.png" alt=""></div>
+							<div class="social-link"><img src="./src/assets/img/social-icons/instagram.png" alt=""></div>
 						</a>
+					  </div>
+
 					</div>
 				</div>
 			</div>
 
 		</div>
-	</div>	
+	
+
+	<div class="container">
+	  <!-- Modal -->
+	  <div class="modal fade" id="myModal" role="dialog">
+	    <div class="modal-dialog">
+	    
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Modal Header</h4>
+	        </div>
+	        <div class="modal-body">
+	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus rerum accusantium ratione reprehenderit quam, consectetur suscipit qui. A pariatur mollitia ea cum, eum, sed animi, id, rerum molestias officia ullam!</p>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	      </div>
+	      
+	    </div>
+	  </div>
+	  
+	</div>
+	
 
 
 
